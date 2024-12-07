@@ -3,7 +3,7 @@ use std::fs;
 
 fn Part1() -> i32
 {
-    let file_path = "../src/day2/input1_1.txt";
+    let file_path = "../src/day2/input2_1.txt";
     let contents = fs::read_to_string(file_path).expect("Failed to open input file!");
 
     let mut reports : Vec<Vec<i32>> = Vec::new();
@@ -101,7 +101,7 @@ fn AnalyzeReport(report : &Vec<i32>) -> bool
 
 fn Part2() -> i32
 {
-    let file_path = "../src/day2/input1_2.txt";
+    let file_path = "../src/day2/input2_2.txt";
     let contents = fs::read_to_string(file_path).expect("Failed to open input file!");
 
     let mut reports : Vec<Vec<i32>> = Vec::new();
