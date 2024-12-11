@@ -34,7 +34,7 @@ fn count_num_digits(num : i64) -> i64
 
 fn Part2() -> i64
 {
-        let file_path = "../../src/day7/input7_2.txt";
+    let file_path = "../../src/day7/input7_2.txt";
     let mut contents : String = fs::read_to_string(file_path).expect("Failed to open input file!");
 
     let mut equations : Vec<(i64, Vec<i64>)> = Vec::new();
